@@ -65,6 +65,10 @@ void runGameLoop(char marks[]) {
             roundPos = 8;
         }
 
+        if (!isWinningMove && roundPos == 8) {
+            printf("Nobody wins.\n");
+        }
+
         printf("Press any key to continue\n\n");
         getch();
     }
