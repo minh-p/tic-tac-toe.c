@@ -1,4 +1,4 @@
-// Contains functions to make a tic-tac-toe board.
+// Contains function to make a tic-tac-toe board.
 // minh_p
 // 6/18/2021
 
@@ -6,7 +6,7 @@
 
 void buildBoard(char marks[]) {
     // Make some space
-    printf("\n");
+    printf("\n\n");
 
     for (int index = 0; index < 9; index += 3) {
         if (index % 3 == 0 && index != 0) printf("\t----|----|----\n");
